@@ -42,8 +42,11 @@ ul {
   margin-left: 20%;
   margin-right: 20%;
   font-size: 20px;
+  margin-bottom: 10%;
 }
 .img {
   justify-content: center;
-  size: 940px 540px;
+  width: 940px;
+  height: 540px;
+  object-fit: contain;
 }

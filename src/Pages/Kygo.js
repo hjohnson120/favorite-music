@@ -8,8 +8,8 @@ class Kygo extends Component {
       <div>
         <NavBar />
         <h1>Kygo</h1>
-        <img src={kygo} />
-        <p>
+        <img className="img" src={kygo} />
+        <p className="band-info">
           In June 2018, Kygo announced a collaboration with American rock band
           Imagine Dragons titled "Born to Be Yours".[44] The single was released
           on 11 June.[45] On 21 September, Kygo debuted his upcoming single,
