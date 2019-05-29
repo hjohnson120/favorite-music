@@ -9,4 +9,41 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  text-align: center;
+  color: darkslategrey;
+  background-color: aliceblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+  margin: 4%;
+  font-size: 3rem;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  margin: 4%;
+}
+
+ul {
+  margin: 0%;
+  padding-inline-start: 0%;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 75%;
+  list-style: none;
+  margin-top: 2%;
+}
+.band-info {
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 20px;
+}
+.img {
+  justify-content: center;
+  size: 940px 540px;
 }
